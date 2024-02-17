@@ -6,6 +6,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "deploy": "NODE_DEBUG=gh-pages -d dist -t",
     "lint": "next lint"
   },
   "dependencies": {
