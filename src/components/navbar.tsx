@@ -8,6 +8,8 @@ export default function Navbar() {
 
   const toggleDrawer = () => {
  //   setIsOpen(!isOpen);
+ console.log("button clicked");
+ 
   };
 
   return (
@@ -30,7 +32,7 @@ export default function Navbar() {
           {/* Hamburger menu for mobile */}
           <button
             className="text-white hover:border-gray-300 hover:bg-gray-500 focus:outline-none p-1"
-            onClick={toggleDrawer}
+            
           >
             <svg
               className="w-6 h-6"
